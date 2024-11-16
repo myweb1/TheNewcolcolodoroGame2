@@ -1,0 +1,92 @@
+body {
+    background-color: black;
+    color: white;
+}
+#calculadoradivisorxd {
+    background-size: cover;
+    background-image: url("calculadora2.png");
+    aspect-ratio: 0.67;
+    width: 351px;
+    margin:0 auto ;
+    position: relative;
+}
+#labelEpika {
+    position: absolute;
+    left: 50px;
+    top: 90px;
+    background-color: transparent;
+    height: 10%;
+    width: 75%;
+    text-align: end;
+    font-size: 50px;
+    color: black;
+    font-family: "Tiny5", sans-serif;
+}
+#otradiv {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap: 5px;
+    grid-row-gap: 10px;
+    position: absolute;
+    left: 99px;
+    top: 270px;
+}
+#otradiv button {
+    height: 50px;
+}
+#Sizepls {
+    height: 150px;
+    width: 150px;
+    
+}
+#positionpls {
+    position: absolute;
+    left: 180px;
+    top: 25px ;
+}
+#pospls {
+    position: absolute;
+    right: 23px;
+    top: 268px;
+    height: 50px;
+    width: 50px;
+}
+#pospl {
+    position: absolute;
+    right: 23px;
+    top: 325px;
+    height: 50px;
+    width: 50px;
+}
+#posp {
+    position: absolute;
+    right: 23px;
+    top: 390px;
+    height: 100px;
+    width: 50px;
+}
+#iguak {
+    position: absolute;
+    right: 23px;
+    top: 225px;
+    height: 30px;
+    width: 50px;
+}
+#numerote {
+    position: absolute;
+    right: 200px;
+    top: 600px;
+    background: white;
+    border: 10px solid white;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    color: black;
+    font-family: "Sour Gummy", sans-serif;
+    text-align: center;
+}
+#llegara {
+    position: absolute;
+    right: 200px;
+    top: 550px;
+}
